@@ -1,0 +1,34 @@
+.all-case-studies-container {
+    padding: 20px;
+  }
+  
+  .all-case-studies-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .all-case-studies-table th,
+  .all-case-studies-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .all-case-studies-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .all-case-studies-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .all-case-studies-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .all-case-studies-table img {
+    max-width: 100px;
+    height: auto;
+  }
+  

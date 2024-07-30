@@ -1,0 +1,34 @@
+.all-leaderships-container {
+    padding: 20px;
+  }
+  
+  .all-leaderships-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .all-leaderships-table th,
+  .all-leaderships-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .all-leaderships-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .all-leaderships-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .all-leaderships-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .all-leaderships-table img {
+    max-width: 100px;
+    height: auto;
+  }
+  

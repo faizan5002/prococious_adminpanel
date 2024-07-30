@@ -1,0 +1,30 @@
+/* src/Alert.css */
+.alert-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .alert-content {
+    background-color: #5ddf72;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .alert-message {
+    flex-grow: 1;
+  }
+  
+  .alert-close {
+    background: none;
+    border: none;
+    color: #721c24;
+    font-size: 1.0rem;
+    cursor: pointer;
+  }
+  
